@@ -3,7 +3,7 @@ A Telegram Bot that effects your photo.
 
 <h1>Requirements:</h1>
 <ol>
-<li>pip3 install numpy opencv-python python-telegram-bot python-telegram-bot[socks]</li>
+<li>pip3 install numpy opencv-python python-telegram-bot python-telegram-bot[socks] --user</li>
 <li>Set your telegramBot Token > line 15</li>
 </ol>
 <h2>Usage:</h2>
