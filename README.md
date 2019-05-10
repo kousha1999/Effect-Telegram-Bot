@@ -1,4 +1,4 @@
-# Effect-telegram-bot
+# Effect Telegram Bot
 A Telegram Bot that effects your photo.
 
 <h1>Requirements:</h1>
