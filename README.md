@@ -9,8 +9,8 @@ A Telegram Bot that effects your photo.
 <h2>Usage:</h2>
 <ul>
 <li>Open a terminal and use below commands</li>
-<li>git clone https://github.com/kousha1999/SteganographyTelegramBot.git</li>
-<li>cd SteganographyTelegramBot</li>
+<li>git clone https://github.com/kousha1999/Effect-Telegram-Bot.git</li>
+<li>cd Effect-Telegram-Bot</li>
 <li>python3 main.py</li>
 </ul>
 
