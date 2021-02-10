@@ -22,12 +22,12 @@ dispatcher = updater.dispatcher
 
 def switcher(choosed_effect, img_addr, uid):
     switch = {
-        '1': black_and_white(img_addr, uid),
-        '2': gaussian_blur(img_addr, uid),
-        '3': sobel_filter(img_addr, uid),
-        '4': cartoon_effect(img_addr, uid),
-        '5': edges_effect(img_addr, uid)
-    }
+        '1': black_and_white,
+        '2': gaussian_blur,
+        '3': sobel_filter,
+        '4': cartoon_effect,
+        '5': edges_effect
+    }[choosed_effect](img_addr, uid)
 
 def just_little_helper(bot, update):
     update.message.reply_text('Send Photo Dude')
